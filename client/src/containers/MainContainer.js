@@ -1,4 +1,6 @@
 import React from 'react';
+import PlayerList from '../components/PlayerList'
+
 
 class MainContainer extends React.Component {
   state = {players: []}
@@ -13,13 +15,8 @@ class MainContainer extends React.Component {
     return (
       <div className="App">
         <h1>NFL Playoff QBs</h1>
-        {this.state.players.map(player =>
-          <div key={player.id}>
-            <h3>{player.name}</h3>
-            <p>{player.team}</p>
-            <img src={player.image} alt={player.name}/>
-          </div>
-        )}
+        <PlayerList players={this.state.players} />
+
       </div>
     );
   }
