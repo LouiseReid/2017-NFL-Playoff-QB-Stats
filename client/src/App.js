@@ -1,26 +1,13 @@
 import React, { Component } from 'react';
+import MainContainer from './containers/MainContainer'
 import './App.css';
 
 class App extends Component {
-  state = {players: []}
-
-  componentDidMount() {
-    fetch('/players')
-      .then(res => res.json())
-      .then(players => this.setState({ players }));
-  }
 
   render() {
     return (
       <div className="App">
-        <h1>NFL Playoff QBs</h1>
-        {this.state.players.map(player =>
-          <div key={player.id}>
-            <h1>{player.name}</h1>
-            <p>{player.team}</p>
-            <img src={player.image} alt={player.name}/>
-          </div>
-        )}
+        <MainContainer />
       </div>
     );
   }
