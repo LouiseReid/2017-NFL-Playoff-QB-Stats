@@ -15,7 +15,7 @@ class MainContainer extends React.Component {
         <h1>NFL Playoff QBs</h1>
         {this.state.players.map(player =>
           <div key={player.id}>
-            <h1>{player.name}</h1>
+            <h3>{player.name}</h3>
             <p>{player.team}</p>
             <img src={player.image} alt={player.name}/>
           </div>
