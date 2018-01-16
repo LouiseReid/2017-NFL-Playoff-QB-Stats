@@ -9,7 +9,7 @@ const PlayerList = (props) => {
   if(!props.players) return null;
 
   const playerList = props.players.map((player) =>{
-    return <Player player={player}/>;
+    return <Player player={player} key={player.id}/>;
 
   })
   return (
