@@ -27,6 +27,7 @@ class Modal extends React.Component {
     return (
       <div>
         <div style={modalStyle}>
+          <h2>{this.props.player.name} - {this.props.player.team}</h2>
           <li>Passing Attempts: {this.props.player.passingAttempts}</li>
           <li>Completions: {this.props.player.completions}</li>
           <li>Yards: {this.props.player.yards}</li>

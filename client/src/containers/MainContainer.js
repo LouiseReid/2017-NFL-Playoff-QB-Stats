@@ -19,7 +19,9 @@ class MainContainer extends React.Component {
     return (
       <div className="App">
         <h1 className="header">NFL Playoff QBs</h1>
-        <PlayerList players={this.state.players} className="player-container"/>
+        <div className="player-container">
+          <PlayerList players={this.state.players} />
+        </div>
       </div>
     );
   }
