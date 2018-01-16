@@ -7,3 +7,6 @@ Full stack JavaScript app built with an Express back-end and React front-end.
 ![Home](https://github.com/LouiseReid/2017-NFL-Playoff-QB-Stats/blob/master/Home.png)
 
 ![Modal](https://github.com/LouiseReid/2017-NFL-Playoff-QB-Stats/blob/master/Modal.png)
+
+
+player images and stats taken from nfl.com
