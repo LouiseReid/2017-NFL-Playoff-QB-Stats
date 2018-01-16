@@ -3,12 +3,14 @@ import PlayerList from '../components/PlayerList'
 
 
 class MainContainer extends React.Component {
-  state = {players: []}
+  state = {
+    players: []
+  }
 
   componentDidMount() {
     fetch('/players')
-      .then(res => res.json())
-      .then(players => this.setState({ players }));
+    .then(res => res.json())
+    .then(players => this.setState({ players }));
   }
 
   render() {
@@ -16,7 +18,6 @@ class MainContainer extends React.Component {
       <div className="App">
         <h1>NFL Playoff QBs</h1>
         <PlayerList players={this.state.players} />
-
       </div>
     );
   }

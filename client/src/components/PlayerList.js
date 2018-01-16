@@ -1,5 +1,7 @@
 import React from 'react'
 import Player from '../components/Player'
+var _ = require('lodash');
+
 
 
 const PlayerList = (props) => {
