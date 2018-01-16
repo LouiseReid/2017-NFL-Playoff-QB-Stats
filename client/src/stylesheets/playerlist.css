@@ -8,7 +8,12 @@
   flex-flow: wrap;
   justify-content: space-between;
   width: 40vw;
+  background-image: url('../images/afc.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
 }
+
 
 .nfc-players-list {
   display: flex;
@@ -16,7 +21,12 @@
   flex-flow: wrap;
   justify-content: space-between;
   width: 40vw;
+  background-image: url('../images/nfc.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
 }
+
 
 .superbowl {
   width: 20vw;
