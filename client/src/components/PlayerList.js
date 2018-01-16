@@ -1,5 +1,6 @@
 import React from 'react'
 import Player from '../components/Player'
+import '../stylesheets/playerlist.css';
 var _ = require('lodash');
 
 
@@ -19,12 +20,16 @@ const PlayerList = (props) => {
 
   return (
     <React.Fragment>
-      <div className="afc-players-list">
-        {afcPlayerList}
+      <div className="players-list">
+        <div className="afc-players-list">
+          {afcPlayerList}
+        </div>
+        <section className="superbowl"></section>
+        <div className="nfc-players-list">
+          {nfcPlayers}
+        </div>
       </div>
-      <div className="nfc-players-list">
-        {nfcPlayers}
-      </div>
+
     </React.Fragment>
   )
 }
