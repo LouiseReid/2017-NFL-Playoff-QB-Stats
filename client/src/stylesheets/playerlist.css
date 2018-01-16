@@ -1,7 +1,26 @@
+.players-list {
+  display: flex;
+}
+
 .afc-players-list {
+  display: flex;
+  flex-direction:column;
+  flex-flow: wrap;
+  justify-content: space-between;
+  width: 40vw;
   border: 1px solid blue;
 }
 
 .nfc-players-list {
+  display: flex;
+  flex-direction: column;
+  flex-flow: wrap;
+  justify-content: space-between;
   border: 1px solid red;
+  width: 40vw;
+}
+
+.superbowl {
+  border: 1px solid green;
+  width: 20vw;
 }

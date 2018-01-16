@@ -1,5 +1,7 @@
 import React from 'react';
 import PlayerList from '../components/PlayerList'
+import '../stylesheets/main.css';
+
 
 
 class MainContainer extends React.Component {
