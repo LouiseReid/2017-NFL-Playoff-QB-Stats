@@ -18,7 +18,10 @@ class MainContainer extends React.Component {
   render() {
     return (
       <div className="App">
-        <h1 className="header">NFL Playoff QBs</h1>
+        <div className="header">
+          <h1>NFL Playoff QBs</h1>
+          <p>Select a player to view their regular season stats</p>
+        </div>
         <div className="player-container">
           <PlayerList players={this.state.players} />
         </div>

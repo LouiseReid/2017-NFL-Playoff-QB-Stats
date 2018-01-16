@@ -1,5 +1,7 @@
 import React from 'react';
 import Modal from '../components/Modal'
+import '../stylesheets/player.css';
+
 
 
 class Player extends React.Component {

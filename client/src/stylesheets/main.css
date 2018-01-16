@@ -1,19 +1,27 @@
 body {
   background-image: url('../images/background.jpg');
   background-size: auto;
+  background-attachment: fixed;
 }
 
 h1 {
   margin: 0;
-  background-color: rgba(255, 255, 255, 0.3);
+  font-size: 45px;
+}
+
+p {
+  margin: 0;
+  font-size: 30px;
 }
 
 .header {
-  height: 5vh;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .player-container {
   height: 95vh;
-  padding-top: 60px;
+  padding-top: 10px;
   background-color: rgba(255, 255, 255, 0.3);
+  margin: 0;
 }
