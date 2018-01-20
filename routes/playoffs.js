@@ -52,7 +52,58 @@ router.get('/', function(req, res, next) {
     awayImage: "http://i.nflcdn.com/static/site/7.5/img/teams/JAX/JAX_logo-80x90.gif",
     homeSeed: "1st seed",
     awaySeed: "3rd seed"
-  }])
+  },
+  {
+    id: 6,
+    round: "championship nfc",
+    home: "Eagles ",
+    away: " Vikings",
+    homeImage: "http://i.nflcdn.com/static/site/7.5/img/teams/PHI/PHI_logo-80x90.gif",
+    awayImage: "http://i.nflcdn.com/static/site/7.5/img/teams/MIN/MIN_logo-80x90.gif",
+    homeSeed: "1st seed",
+    awaySeed: "2nd seed"
+  },
+  {
+    id: 7,
+    round: "divisional nfc",
+    home: "Eagles 15",
+    away: "10 Falcons",
+    homeImage: "http://i.nflcdn.com/static/site/7.5/img/teams/PHI/PHI_logo-80x90.gif",
+    awayImage: "http://i.nflcdn.com/static/site/7.5/img/teams/ATL/ATL_logo-80x90.gif",
+    homeSeed: "1st seed",
+    awaySeed: "6th seed"
+  },
+  {
+    id: 8,
+    round: "divisional nfc",
+    home: "Vikings 29",
+    away: "24 Saints",
+    homeImage: "http://i.nflcdn.com/static/site/7.5/img/teams/MIN/MIN_logo-80x90.gif",
+    awayImage: "http://i.nflcdn.com/static/site/7.5/img/teams/NO/NO_logo-80x90.gif",
+    homeSeed: "2nd seed",
+    awaySeed: "4th seed"
+  },
+  {
+    id: 9,
+    round: "wildcard nfc",
+    home: "Rams 13",
+    away: "26 Falcons",
+    homeImage: "http://i.nflcdn.com/static/site/7.5/img/teams/LA/LA_logo-80x90.gif",
+    awayImage: "http://i.nflcdn.com/static/site/7.5/img/teams/ATL/ATL_logo-80x90.gif",
+    homeSeed: "3rd seed",
+    awaySeed: "6th seed"
+  },
+  {
+    id: 10,
+    round: "wildcard nfc",
+    home: "Saints 31",
+    away: "26 Panthers",
+    homeImage: "http://i.nflcdn.com/static/site/7.5/img/teams/NO/NO_logo-80x90.gif",
+    awayImage: "http://i.nflcdn.com/static/site/7.5/img/teams/CAR/CAR_logo-80x90.gif",
+    homeSeed: "4th seed",
+    awaySeed: "5th seed"
+  }
+])
 
 });
 
