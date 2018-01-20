@@ -1,4 +1,5 @@
 import React from 'react'
+import Rounds from './Rounds'
 
 class Playoffs extends React.Component {
   state = {
@@ -13,7 +14,11 @@ class Playoffs extends React.Component {
 
   render(){
     return(
-      <p>This is the playoffs</p>
+      <React.Fragment>
+        <p>This is the playoffs</p>
+        <Rounds games={this.state.games} />
+      </React.Fragment>
+
     )
   }
 
