@@ -1,0 +1,24 @@
+.navbar {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+
+li {
+  padding-left: 25px;
+  padding-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 40px;
+  color: white;
+}
+
+a:hover {
+  font-size: 42px;
+}
