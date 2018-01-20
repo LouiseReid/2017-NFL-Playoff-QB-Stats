@@ -32,14 +32,14 @@ const Rounds = (props) => {
 
       </div>
       <section className="nfc">
-        <div className="nfc-wildcard">
-          {nfcWildcard}
+        <div className="nfc-championship">
+
         </div>
         <div className="nfc-divisional">
 
         </div>
-        <div className="nfc-championship">
-
+        <div className="nfc-wildcard">
+          {nfcWildcard}
         </div>
       </section>
     </div>

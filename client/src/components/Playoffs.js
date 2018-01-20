@@ -14,11 +14,7 @@ class Playoffs extends React.Component {
 
   render(){
     return(
-      <React.Fragment>
-        <p>This is the playoffs</p>
-        <Rounds games={this.state.games} />
-      </React.Fragment>
-
+      <Rounds games={this.state.games} />
     )
   }
 
