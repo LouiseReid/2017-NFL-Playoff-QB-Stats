@@ -1,0 +1,40 @@
+.rounds {
+  display: flex;
+  justify-content: space-between;
+}
+
+.afc, .nfc {
+  display: flex;
+  justify-content: space-between;
+  width: 42%;
+}
+
+.afc-wildcard, .afc-divisional, .afc-championship, .nfc-wildcard, .nfc-divisional, .nfc-championship {
+  width: 33%;
+  height: 100vh;
+}
+
+.wildcard-games {
+  display: flex;
+  align-content:space-between;
+  height: 100vh;
+}
+
+
+.wildcard-games {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.superbowl {
+  width: 16%;
+  background-image: url('../images/superbowl.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+h3 {
+  text-align: center;
+}
