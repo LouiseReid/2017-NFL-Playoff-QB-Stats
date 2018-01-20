@@ -102,6 +102,20 @@ router.get('/', function(req, res, next) {
     awayImage: "http://i.nflcdn.com/static/site/7.5/img/teams/CAR/CAR_logo-80x90.gif",
     homeSeed: "4th seed",
     awaySeed: "5th seed"
+  },
+  {
+    id: 11,
+    round: "superbowl afc",
+    home: "Patriots ",
+    homeImage: "http://i.nflcdn.com/static/site/7.5/img/teams/NE/NE_logo-80x90.gif",
+    homeSeed: "1st seed"
+  },
+  {
+    id: 12,
+    round: "superbowl nfc",
+    home: "Vikings ",
+    homeImage: "http://i.nflcdn.com/static/site/7.5/img/teams/MIN/MIN_logo-80x90.gif",
+    homeSeed: "2nd seed"
   }
 ])
 

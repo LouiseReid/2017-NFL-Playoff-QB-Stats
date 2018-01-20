@@ -26,6 +26,11 @@
   justify-content: center;
 }
 
+.superbowl-teams {
+  display: flex;
+  justify-content: space-around;
+}
+
 .superbowl-game {
   height: 200px;
   width: 100%;
@@ -36,7 +41,7 @@
   background-position: center;
 }
 
-h2 {
+.round-title {
   text-align: center;
   margin: 0;
   font-size: 28px;

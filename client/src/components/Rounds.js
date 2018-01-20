@@ -1,5 +1,6 @@
 import React from 'react';
-import Game from './Game'
+import Game from './Game';
+import Superbowl from './Superbowl';
 import '../stylesheets/rounds.css';
 
 var _ = require('lodash');
@@ -34,11 +35,11 @@ const Rounds = (props) => {
   })
 
   const afcSuperbowl = _.filter(props.games, {'round': 'superbowl afc'}).map((game) =>{
-    return <Game game={game} key={game.id}/>;
+    return <Superbowl game={game} key={game.id}/>;
   })
 
   const nfcSuperbowl = _.filter(props.games, {'round': 'superbowl nfc'}).map((game) =>{
-    return <Game game={game} key={game.id}/>;
+    return <Superbowl game={game} key={game.id}/>;
   })
 
 
@@ -46,26 +47,26 @@ const Rounds = (props) => {
     <div className="rounds">
       <section className="afc">
         <div className="afc-wildcard">
-          <h2>AFC Wildcard Round</h2>
+          <h2 className="round-title">AFC Wildcard Round</h2>
           <div className="wildcard-games">
             {afcWildcard}
           </div>
         </div>
         <div className="afc-divisional">
-          <h2>AFC Divisional Round</h2>
+          <h2 className="round-title">AFC Divisional Round</h2>
           <div className="divisional-games">
             {afcDivisional}
           </div>
         </div>
         <div className="afc-championship">
-          <h2>AFC Championship Round</h2>
+          <h2 className="round-title">AFC Championship Round</h2>
           <div className="championship-games">
             {afcChampionship}
           </div>
         </div>
       </section>
       <section className="superbowl-game">
-        <div >
+        <div className="superbowl-teams">
           {afcSuperbowl}
           {nfcSuperbowl}
         </div>
@@ -75,19 +76,19 @@ const Rounds = (props) => {
           <div className="championship-games">
             {nfcChampionship}
           </div>
-          <h2>NFC Championship Round</h2>
+          <h2 className="round-title">NFC Championship Round</h2>
         </div>
         <div className="nfc-divisional">
           <div className="divisional-games">
             {nfcDivisional}
           </div>
-          <h2>NFC Divisional Round</h2>
+          <h2 className="round-title">NFC Divisional Round</h2>
         </div>
         <div className="nfc-wildcard">
           <div className="wildcard-games">
             {nfcWildcard}
           </div>
-          <h2>NFC Wildcard Round</h2>
+          <h2 className="round-title">NFC Wildcard Round</h2>
         </div>
       </section>
     </div>
