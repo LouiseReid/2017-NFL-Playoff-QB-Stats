@@ -8,18 +8,18 @@ const Game = (props) => {
     <React.Fragment>
       <div className="game">
         <div className="home">
-          <img src={props.game.homeImage} alt={props.game.home}/>
+          <img className="team-image" src={props.game.homeImage} alt={props.game.home}/>
           <div className="details">
-            <h3>{props.game.home}</h3>
-            <h5>{props.game.homeSeed}</h5>
+            <h3 className="team">{props.game.home}</h3>
+            <h5 className="seed">{props.game.homeSeed}</h5>
           </div>
         </div>
         <div className="away">
           <div className="details">
-            <h3>{props.game.away}</h3>
-            <h5>{props.game.awaySeed}</h5>
+            <h3 className="team">{props.game.away}</h3>
+            <h5 className="seed">{props.game.awaySeed}</h5>
           </div>
-          <img src={props.game.awayImage} alt={props.game.away}/>
+          <img className="team-image" src={props.game.awayImage} alt={props.game.away}/>
         </div>
       </div>
     </React.Fragment>

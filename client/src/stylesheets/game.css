@@ -1,16 +1,16 @@
 .game {
   display: flex;
   justify-content: space-between;
-  height: 100px;
-  width: 215px;
-  border: 2px solid gold;
+  height: 125px;
+  width: 400px;
+  border: 3px solid gold;
   margin: 1px;
   border-radius: 5%;
   padding: 1px;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.2);
   text-shadow: 1px 2px 2px #000;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 .home {
@@ -26,16 +26,15 @@
   margin: 3px;
 }
 
-img {
-  padding: 0;
-  height: 45px;
+.team-image {
+  padding: 5px;
   align-self: center;
 }
 
-h3 {
+.team {
   margin: 0;
 }
 
-h5 {
+.seed {
   margin: 0;
 }
