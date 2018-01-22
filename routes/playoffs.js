@@ -46,8 +46,8 @@ router.get('/', function(req, res, next) {
   {
     id: 5,
     round: "championship afc",
-    home: "Patriots ",
-    away: " Jaguars",
+    home: "Patriots 24",
+    away: "20 Jaguars",
     homeImage: "http://i.nflcdn.com/static/site/7.5/img/teams/NE/NE_logo-80x90.gif",
     awayImage: "http://i.nflcdn.com/static/site/7.5/img/teams/JAX/JAX_logo-80x90.gif",
     homeSeed: "1st seed",
@@ -56,8 +56,8 @@ router.get('/', function(req, res, next) {
   {
     id: 6,
     round: "championship nfc",
-    home: "Eagles ",
-    away: " Vikings",
+    home: "Eagles 38",
+    away: "7 Vikings",
     homeImage: "http://i.nflcdn.com/static/site/7.5/img/teams/PHI/PHI_logo-80x90.gif",
     awayImage: "http://i.nflcdn.com/static/site/7.5/img/teams/MIN/MIN_logo-80x90.gif",
     homeSeed: "1st seed",
@@ -108,14 +108,14 @@ router.get('/', function(req, res, next) {
     round: "superbowl afc",
     home: "Patriots ",
     homeImage: "http://i.nflcdn.com/static/site/7.5/img/teams/NE/NE_logo-80x90.gif",
-    homeSeed: "1st seed"
+    homeSeed: "1st seed AFC"
   },
   {
     id: 12,
     round: "superbowl nfc",
-    home: "Vikings ",
-    homeImage: "http://i.nflcdn.com/static/site/7.5/img/teams/MIN/MIN_logo-80x90.gif",
-    homeSeed: "2nd seed"
+    home: "Eagles ",
+    homeImage: "http://i.nflcdn.com/static/site/7.5/img/teams/PHI/PHI_logo-80x90.gif",
+    homeSeed: "1st seed NFC"
   }
 ])
 
